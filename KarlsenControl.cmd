@@ -116,7 +116,7 @@ if %shortcut%==true (
 )
 
 cls
-set Version=1.1.1
+set Version=1.0.0
 echo [7;94m::: INFO :::[0m[94m %p_name% - Version %Version% [0m
 echo [7;94m::: INFO :::[0m[94m If you don't have Karlsen Node Running, you must run the command - I - before you can use other commands [0m
 echo [7;94m::: INFO :::[0m[94m If you don't have a wallet yet, be sure to create/restore one before you can use wallet-based commands [0m
