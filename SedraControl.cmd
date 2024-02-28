@@ -1,4 +1,4 @@
-@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/SedraControl
+@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/WalletManager
 @echo off
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
@@ -77,7 +77,7 @@ if "%REsedra%"=="Y" ( set REsedra=true ) else (
 
 if %REsedra%==true (
     echo [7;94m::: SETUP :::[0m[94m Downloading Sedra files... [0m
-    curl --output install_sedra.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/SedraControl/cmd/commands/install_sedra.cmd
+    curl --output install_sedra.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/WalletManager/cmd/commands/install_sedra.cmd
     call install_sedra.cmd
 ) else (
     if %REsedra%==pass (
