@@ -1,4 +1,4 @@
-@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/KaspaControl
+@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/WalletManager
 @echo off
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
@@ -77,7 +77,7 @@ if "%REkaspa%"=="Y" ( set REkaspa=true ) else (
 
 if %REkaspa%==true (
     echo [7;94m::: SETUP :::[0m[94m Downloading Kaspa files... [0m
-    curl --output install_kaspa.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/KaspaControl/cmd/commands/install_kaspa.cmd
+    curl --output install_kaspa.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/WalletManager/cmd/commands/install_kaspa.cmd
     call install_kaspa.cmd
 ) else (
     if %REkaspa%==pass (
