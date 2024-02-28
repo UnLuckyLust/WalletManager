@@ -1,4 +1,4 @@
-@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/SedraControl
+@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/WalletManager
 @echo off
 setlocal
 cd /d %~dp0
