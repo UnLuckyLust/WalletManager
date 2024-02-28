@@ -24,6 +24,8 @@ Optimized command line for quick installation and startup of Kaspa (or kaspa bas
 - Show Node Info.
 - Show Dag Block Info.
 
+![WalletManager png](https://github.com/UnLuckyLust/WalletManager/assets/104845736/e11ef330-e006-473f-844b-ca1b00e88ba6)
+
 ## Downloads
 - [Releases Page](https://github.com/UnLuckyLust/WalletManager/releases)
 
