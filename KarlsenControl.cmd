@@ -1,4 +1,4 @@
-@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/KarlsenControl
+@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/WalletManager
 @echo off
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
@@ -77,7 +77,7 @@ if "%REkarlsen%"=="Y" ( set REkarlsen=true ) else (
 
 if %REkarlsen%==true (
     echo [7;94m::: SETUP :::[0m[94m Downloading Karlsen files... [0m
-    curl --output install_karlsen.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/KarlsenControl/cmd/commands/install_karlsen.cmd
+    curl --output install_karlsen.cmd -LO https://raw.githubusercontent.com/UnLuckyLust/WalletManager/cmd/commands/install_karlsen.cmd
     call install_karlsen.cmd
 ) else (
     if %REkarlsen%==pass (
