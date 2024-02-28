@@ -4,10 +4,6 @@ Optimized command line for quick installation and startup of Kaspa (or kaspa bas
 - This command file is intended for a Windows operating system (local machine only), and its purpose is to run and manage the CLI Wallet, easily and quickly.
 - Currnetly supporet [Kaspa](https://github.com/kaspanet/kaspad), [Karlsen](https://github.com/karlsen-network/karlsend), and [Sedra](https://github.com/sedracoin/sedrad) currencies.
 
-## Initial Setup
-- Place the CMD file in the coin installation folder (cli wallet version).
-- if you haven't installed the official cli wallet for the coin, you'll have the option to download it to the current folder.
-
 ## What can i do?
 - Install cli Wallet.
 - Index UTXOs.
@@ -27,6 +23,18 @@ Optimized command line for quick installation and startup of Kaspa (or kaspa bas
 - Start Mining.
 - Show Node Info.
 - Show Dag Block Info.
+
+## Downloads
+- [Releases Page](https://github.com/UnLuckyLust/WalletManager/releases)
+
+## Source Code
+- [Kaspa](https://github.com/UnLuckyLust/WalletManager/tree/kaspa)
+- [Karlsen](https://github.com/UnLuckyLust/WalletManager/tree/karlsen)
+- [Sedra](https://github.com/UnLuckyLust/WalletManager/tree/sedra)
+
+## Initial Setup
+- Place the CMD file in the coin installation folder (cli wallet version).
+- if you haven't installed the official cli wallet for the coin, you'll have the option to download it to the current folder.
 
 # Warnings and Notes
 - This cmd file will only use official commands for the wallet.
