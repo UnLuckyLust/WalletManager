@@ -34,7 +34,7 @@ Optimized command line for quick installation and startup of Kaspa (or kaspa bas
 
 ## Initial Setup
 - Place the CMD file in the coin installation folder (cli wallet version).
-- if you haven't installed the official cli wallet for the coin, you'll have the option to download it to the current folder.
+- If you haven't installed the official cli wallet for the coin, you'll have the option to download it to the current folder.
 
 ## Warnings and Notes
 - This cmd file will only use official commands for the wallet.
