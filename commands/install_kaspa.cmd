@@ -1,4 +1,4 @@
-@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/KaspaControl
+@REM Written by UnLuckyLust - https://github.com/UnLuckyLust/WalletManager
 @echo off
 setlocal
 cd /d %~dp0
