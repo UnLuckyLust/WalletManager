@@ -1,49 +1,37 @@
-# CMD Wallet Manager for Kaspa (or kaspa based coins)
-Optimized command line for quick installation and startup of Kaspa (or kaspa based coins) cryptocurrency node.
+# Nexellia Wallet Control
+- Optimized command line for quick installation and startup of Nexellia cryptocurrency node.
+- This command file is intended for a Windows operating system, and its purpose is to run the [Nexellia cryptocurrency CLI Wallet (nexelliad)](https://github.com/Nexellia-Network/nexelliad), easily and quickly.
 - For Support join us on [Discord](https://discord.gg/gtH9nkGrHu)
-- This command file is intended for a Windows operating system (local machine only), and its purpose is to run and manage the CLI Wallet, easily and quickly.
-- Currnetly supporet [Kaspa](https://github.com/kaspanet/kaspad), [Karlsen](https://github.com/karlsen-network/karlsend), and [Sedra](https://github.com/sedracoin/sedrad) currencies.
+
+## Initial Setup
+- Place NexelliaControl.cmd file in the Nexellia installation folder, if you haven't installed Nexellia, you'll have the option to download it to the current folder.
 
 ## What can i do?
-- Install cli Wallet.
-- Index UTXOs.
-- Start Daemon.
+- Install Nexellia cli Wallet.
+- Index Nexellia UTXOs.
+- Start Nexellia Daemon.
 - Create New Wallet.
 - Restore Wallet from mnemonic.
 - Create New Address.
 - Show Balance.
 - Show Addresses.
 - Dump UnEncrypted Data.
-- Sweep from Privat Key.
-- Send Coins.
+- Sweep Nexellia from Privat Key.
+- Send Nexellia.
 - Sign Transtaction.
 - Parse Transtaction.
 - Broadcast Transtaction.
 - Create UnSigned Transtaction.
-- Start Mining.
+- Start Mining Nexellia.
 - Show Node Info.
 - Show Dag Block Info.
 
-![WalletManager png](https://github.com/UnLuckyLust/WalletManager/assets/104845736/e11ef330-e006-473f-844b-ca1b00e88ba6)
-
-## Downloads
-- [Releases Page](https://github.com/UnLuckyLust/WalletManager/releases)
-
-## Source Code
-- [Kaspa](https://github.com/UnLuckyLust/WalletManager/tree/kaspa)
-- [Karlsen](https://github.com/UnLuckyLust/WalletManager/tree/karlsen)
-- [Sedra](https://github.com/UnLuckyLust/WalletManager/tree/sedra)
-
-## Initial Setup
-- Place the CMD file in the coin installation folder (cli wallet version).
-- If you haven't installed the official cli wallet for the coin, you'll have the option to download it to the current folder.
-
-## Warnings and Notes
-- This cmd file will only use official commands for the wallet.
-- All downloads will be done from this github repository or the official coin github repository.
-- This cmd file is not a Coin Wallet, it is a file that can install and run the Kaspa (or kaspa based coins) official windows cli wallet.
+# Warnings and Notes
+- This cmd file will only use Nexellia official commands for the wallet.
+- All downloads will be done from this github repository or the official Nexellia github repository.
+- This cmd file is not a Nexellia Wallet, it is a file that can install and run the Nexellia official windows cli wallet (nexelliad).
 - This cmd file does not save, send, copy or share any information, and intended for use on the local machine only.
 - This cmd file will never ask you for passwords, addresses or payment methods.
 - This cmd file does not require an additional external download.
 - There is no operating fee for this program.
-- We are not affiliated with Kaspa, or any other listed coin. (Karlsen, Sedra, etc.)
+- We are not affiliated with Nexellia.
